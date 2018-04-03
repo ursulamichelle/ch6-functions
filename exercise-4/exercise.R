@@ -43,13 +43,3 @@ describe_difference <- function(alength,blength) {
 
 # Call your `describe_difference` function by passing it different length strings
 # to confirm that it works. Make sure to check all 3 conditions1
-
-# TA's Answer
-is_twice_as_long_TA <- function(a,b){
-  a_length <- nchar(a)
-  b_length <- nchar(b)
-  diff <- abs(a_length - b_length)
-  min_length <- min(a_length, b_length)
-  diff > min_length
-  
-}
